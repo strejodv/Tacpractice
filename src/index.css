@@ -53,6 +53,10 @@ background-color:#F5F5F5;
   line-height: normal;
 }
 
+.hero-section button:hover {
+  background-color: rgb(211, 162, 1)
+}
+
 .hero-section-button:last-child {
   margin-right: 0;
 }
