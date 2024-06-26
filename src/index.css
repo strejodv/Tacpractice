@@ -1,0 +1,130 @@
+:root {
+margin: 0;
+padding: 0;
+background-color:#F5F5F5;
+
+}
+
+.hero-nav {
+  margin-top: 0px;
+  margin-left: 300px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight:700;
+  color: #3D3D3D;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hero-section {
+  gap: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+  transform: translateY(-52px);
+  font-family: 'Open Sans', sans-serif;
+  color:#3D3D3D;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-section h1 {
+  margin-top: 160px;
+  margin-bottom: 20px;
+  font-size: 80px;
+  font-weight:700;
+}
+
+.hero-section button {
+  margin-right: 20px;
+  background-color:#0b4499;
+  color: white;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 54px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-section-button:last-child {
+  margin-right: 0;
+}
+
+.hero-section p {
+  font-family: 'Open Sans', sans-serif;
+  flex-shrink: 0;
+  color:#3D3D3D;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.hero-pet {
+  border-radius: 10px;
+  width: 800px;
+  height: 802px;
+  background-color: #ebebeb;
+}
+
+.wrapper-pet {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.left-section {
+ 
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.hero-footer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: #F5F5F5;
+  margin: 0;
+}
+
+/* Media query for laptop screens */
+@media (max-width: 1600px) {
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Enable wrapping on smaller screens */
+    margin-left: 100px; /* Adjust margins for smaller screens */
+    margin-right: 100px; /* Adjust margins for smaller screens */
+    gap: 10px;
+  }
+
+  .hero-nav {
+    margin-left: 100px;
+  }
+
+  .hero-section h1 {
+    margin-top: 60px;
+  }
+
+  .hero-pet {
+    border-radius: 10px;
+    width: 800px;
+    height: 802px;
+    background-color: #ebebeb;
+  }
+
+}
