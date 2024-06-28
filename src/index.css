@@ -29,7 +29,7 @@ background-color:#F5F5F5;
 }
 
 .hero-section h1 {
-  margin-top: 160px;
+  margin-top: 110px;
   margin-bottom: 20px;
   font-size: 80px;
   font-weight:700;
@@ -59,6 +59,24 @@ background-color:#F5F5F5;
 
 .hero-section-button:last-child {
   margin-right: 0;
+}
+
+.username-input {
+  width: 310px;
+  margin-top: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(202, 212, 228, 0.65);
+  outline: none;
+}
+
+.username-input::placeholder {
+  text-align: left;
+  
+  
 }
 
 .hero-section p {
