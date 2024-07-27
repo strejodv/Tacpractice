@@ -1,4 +1,5 @@
 import HeroSection from "./Hero.jsx"
+import ChatPage from "./Chat.jsx"
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-    <HeroSection ></HeroSection>
+    <ChatPage></ChatPage>
     </>
   )
 }

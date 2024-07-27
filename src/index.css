@@ -143,4 +143,71 @@ html, body {
   margin: 0;
 }
 
+/* CSS for ChatPage from this point on */
 
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3D3D3D;
+  border-bottom: 1px solid #cecbcb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.top-content h4 {
+  font-size: 32px;
+  background-color: #ffffff;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 120px;
+  margin-right: 0px;
+}
+
+.profile-pic-name {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.top-content button {
+  width: 163px;
+  height: 50px;
+  background-color: #0B4499;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-items {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 25px;
+  padding-left: 0;
+  margin-right: 100px;
+}
+
+.top-content ul {
+  display:flex;
+  flex-direction:row;
+  list-style-type: none;
+  
+}
+
+.profile-img {
+  width: 42px;
+  height: 42px;
+  padding: 0px;
+  border-radius: 50%;
+  translate: -15px;
+  cursor: pointer;
+}
