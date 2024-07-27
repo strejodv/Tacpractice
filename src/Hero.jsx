@@ -13,10 +13,10 @@ function HeroSection () {
         <div className="left-section">
             <h1>Improve Your <br></br>Dialogue with AI</h1>
                 <div>
-                        <input className="username-input" input type="text" placeholder="Please type your name and press 'Start.'" id="username" name="username" required></input>
+                        <input className="username-input" input type="text" placeholder="Please type your name and press '' Star ''." id="username" name="username" required></input>
                 </div>
-                        <button>Start</button><button>More Info</button>
-                        <p>Discover the power of Non-violent Communication in our <br></br>training for Future Police Officers—and anyone passionate <br></br>about fostering understanding and peace!</p>
+                        <button>Start</button><button>More info</button>
+                        <p>Discover the power of non-violent communication in our <br></br>training for future police officers—and anyone passionate <br></br>about fostering understanding and peace!</p>
         </div>
                 <div className="pet-div">
                     <img  className="hero-pet" src={Pet}></img>
