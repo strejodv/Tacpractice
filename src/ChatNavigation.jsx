@@ -21,7 +21,13 @@ function ChatNavigation () {
     </div>
     <div className="chat-wrapper">
         <div className="wrapper-content">
-            <h1>Stefano Trejo</h1>
+            <div className="menu-chat">
+                <h1>TAC Trainer</h1>
+                <button className="start-button">Start Practice Section</button>
+            </div>
+            <div >
+            <p></p>
+            </div>
         </div>
     </div>
     </>

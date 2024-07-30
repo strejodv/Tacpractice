@@ -176,13 +176,13 @@ html, body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(39, 39, 39, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .top-content button:hover {
-  transform: scale(1); /* Slightly scales the button */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* More pronounced drop shadow */
+  transform: scale(1.05); /* Slight scale-up effect on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav-whole {
@@ -201,7 +201,7 @@ html, body {
   font-weight: 700;
   gap: 40px;
   padding-left: 0;
-  
+  cursor: pointer;
 }
 
 .top-content ul {
@@ -226,18 +226,67 @@ html, body {
 }
 
 .chat-wrapper {
-  background-color: #777777;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   
+
 }
 
 .wrapper-content{
+  width: 100%;
+  max-width: 960px;
+  min-height: 780px;
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+   box-sizing: border-box;
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+}
+
+.menu-chat{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-right: 120px;
+  margin-left: 120px;
+  
+}
+
+
+
+.wrapper-content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin: 0px;
+}
+
+.start-button {
+  width: 163px;
+  height: 29px;
+  background-color: #3BE77F;
+  color: #474747;
+  font-weight: 700;
+  font-size: 12px;
+  border: 1px;
+  border-radius: 18px;
+  box-shadow: 0 4px 6px rgba(39, 39, 39, 0.1); /* Added drop shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  transform: scale(1.05); /* Slight scale-up effect on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
