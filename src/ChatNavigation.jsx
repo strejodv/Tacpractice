@@ -2,26 +2,30 @@ import Profile from './assets/Profile.jpg'
 
 
 
-function ChatPage () {
+function ChatNavigation () {
   
 
     return (
     <>  
     <div className="top-content">
         <h4>TacPractice</h4>
-        <nav>
+        <nav className="nav-whole">
             <ul className="nav-items">
                 <span>More Info</span>
                 Help
                 <button>What is non-vilence communication?</button>
-                <p className="profile-pic-name">Stefano T</p>
-                <img  className="profile-img" src={Profile}></img>
             </ul>
-            
+            <p className="profile-pic-name">The future user</p>
+            <img  className="profile-img" src={Profile}></img>
         </nav>
+    </div>
+    <div className="chat-wrapper">
+        <div className="wrapper-content">
+            <h1>Stefano Trejo</h1>
+        </div>
     </div>
     </>
     )
   }
   
-  export default ChatPage
+  export default ChatNavigation

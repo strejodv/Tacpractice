@@ -151,24 +151,19 @@ html, body {
   align-items: center;
   color: #3D3D3D;
   border-bottom: 1px solid #cecbcb;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: px;
+  padding-bottom: px;
   flex-wrap: wrap;
 }
 
 .top-content h4 {
   font-size: 32px;
-  background-color: #ffffff;
+  font-weight: 700;
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 120px;
   margin-right: 0px;
-}
-
-.profile-pic-name {
-  font-size: 13px;
-  font-weight: 800;
 }
 
 .top-content button {
@@ -181,33 +176,68 @@ html, body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.top-content button:hover {
+  transform: scale(1); /* Slightly scales the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* More pronounced drop shadow */
+}
+
+.nav-whole {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .nav-items {
-  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   font-size: 18px;
   font-weight: 700;
-  gap: 25px;
+  gap: 40px;
   padding-left: 0;
-  margin-right: 100px;
+  
 }
 
 .top-content ul {
   display:flex;
   flex-direction:row;
-  list-style-type: none;
-  
+  list-style-type: none; 
+}
+
+.profile-pic-name {
+  margin-left: 80px;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .profile-img {
   width: 42px;
   height: 42px;
-  padding: 0px;
+  margin-right: 120px;
   border-radius: 50%;
-  translate: -15px;
   cursor: pointer;
+}
+
+.chat-wrapper {
+  background-color: #777777;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.wrapper-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
